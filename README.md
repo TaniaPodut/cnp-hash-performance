@@ -27,4 +27,5 @@ The program:
 
 Each generated CNP follows this format:
 
+```text
 S A A L L Z Z J J N N N C
