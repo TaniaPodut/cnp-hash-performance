@@ -29,3 +29,12 @@ Each generated CNP follows this format:
 
 ```text
 S A A L L Z Z J J N N N C
+
+Where:
+- `S`: sex (1 = male, 2 = female)
+- `AA`: year of birth (last 2 digits)
+- `LL`: month
+- `ZZ`: day
+- `JJ`: county code (01–52)
+- `NNN`: unique serial number
+- `C`: control digit (random)
