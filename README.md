@@ -1,10 +1,10 @@
-# 🔍 Romanian CNP Hash Table – Generator & Search Performance
+# Romanian CNP Hash Table – Generator & Search Performance
 
 This Python project simulates the generation and storage of 1 million Romanian CNPs (Personal Numeric Codes), and evaluates the performance of a custom-built hash table implementation.
 
 ---
 
-## 📌 Description
+## Description
 
 The program:
 - Randomly generates **valid-looking CNPs** along with first and last names
@@ -15,7 +15,7 @@ The program:
 
 ---
 
-## 🧠 Algorithm Overview
+## Algorithm Overview
 
 - **Hash function**: based on the sum of digits of the CNP, modulo a large prime (`TABLE_SIZE = 1000003`)
 - **Collision handling**: chaining (linked list per index)
@@ -23,7 +23,7 @@ The program:
 
 ---
 
-## 🧬 CNP Structure (simplified)
+## CNP Structure (simplified)
 
 Each generated CNP follows this format:
 
